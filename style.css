@@ -1,24 +1,12 @@
 body {
-    padding-top: 48px;
+
     background-color: rgb(208, 234, 232);
+    line-height: 1.7;
 }
 
-.container {
-    background-color: rgb(211, 225, 189);
-}
+
 
 a {
     text-decoration: none;
     color: black;
 }
-
-/* 
-.col-lg-8 {
-    padding-left: 84px;
-} */
-/* 
-.popa {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-} */
