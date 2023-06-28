@@ -1,12 +1,49 @@
 body {
+    font-family: 'Source Code Pro', monospace;
+    background: linear-gradient(45deg, rgb(12, 85, 94), rgb(97, 220, 94));
 
-    background-color: rgb(208, 234, 232);
-    line-height: 1.7;
+
+    /* line-height: 1.7; */
 }
 
-
+.color {
+    background: linear-gradient(45deg, rgb(97, 220, 94), rgb(0, 229, 255));
+}
 
 a {
     text-decoration: none;
     color: black;
+}
+
+.hhLink {
+    -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+    animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
 }
