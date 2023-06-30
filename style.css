@@ -57,3 +57,7 @@ a {
 .btn:hover {
     background: linear-gradient(90deg, rgb(19, 170, 165), rgb(0, 191, 255));
 }
+
+.textDecor {
+    text-decoration: underline;
+}
