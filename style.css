@@ -1,18 +1,44 @@
 body {
-    font-family: 'Source Code Pro', monospace;
-    background: linear-gradient(135deg, rgb(12, 85, 94), rgb(97, 220, 94));
-
+    font-family: 'Fira Code', monospace;
+    /* font-family: 'Source Code Pro', monospace; */
+    /* background: linear-gradient(135deg, rgb(12, 85, 94), rgb(97, 220, 94)); */
+    /* background-color: black; */
+    /* background: radial-gradient(231.00% 135.80% at 0.90% 2.98%, rgba(255, 255, 255, 0.26) 0%, rgba(255, 255, 255, 0.00) 100%); */
+    background: rgb(10, 10, 10);
+    background: radial-gradient(circle, rgba(10, 10, 10, 0.7008053221288515) 0%, rgba(0, 0, 0, 0.7428221288515406) 60%, rgba(11, 4, 25, 1) 100%);
 
     /* line-height: 1.7; */
 }
 
 .color {
-    background: linear-gradient(90deg, rgb(97, 220, 94), rgb(0, 229, 255));
+    /* background: linear-gradient(90deg, rgb(108, 183, 172), rgb(13, 119, 100)); */
+    /* background-color: rgba(40, 44, 51, 1) */
+    /* background: radial-gradient(231.00% 135.80% at 0.90% 2.98%, rgba(255, 255, 255, 0.26) 0%, rgba(255, 255, 255, 0.00) 100%); */
+    /* background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(12, 147, 127, 1) 81%, rgba(0, 212, 255, 1) 100%); */
+    /* background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 0.6755952380952381) 0%, rgba(40, 145, 130, 0.7596288515406162) 60%, rgba(0, 212, 255, 1) 100%); */
+    /* background: rgb(17, 171, 19);
+    background: radial-gradient(circle, rgba(17, 171, 19, 0.6755952380952381) 0%, rgba(40, 145, 130, 0.7428221288515406) 60%, rgba(22, 92, 106, 1) 100%); */
+
+    /* background: rgb(171, 17, 170);
+    background: radial-gradient(circle, rgba(171, 17, 170, 0.7008053221288515) 0%, rgba(138, 21, 196, 0.7428221288515406) 60%, rgba(92, 49, 187, 1) 100%); */
+    background: rgb(57, 48, 57);
+    background: radial-gradient(circle, rgba(57, 48, 57, 0.7008053221288515) 0%, rgba(40, 35, 42, 0.7428221288515406) 60%, rgba(80, 69, 102, 1) 100%);
+    border-radius: 3%;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgba(255, 255, 255, 1);
+}
+
+b {
+    color: rgba(255, 255, 255, 1);
+}
+
+h2 {
+    font-size: 24px
 }
 
 .hhLink {
@@ -49,15 +75,36 @@ a {
 }
 
 .btn {
-    background: linear-gradient(90deg, rgb(76, 192, 188), rgb(0, 229, 255));
+    background: rgb(102, 34, 102);
+    background: radial-gradient(circle, rgba(102, 34, 102, 0.7008053221288515) 0%, rgba(103, 40, 105, 0.7428221288515406) 60%, rgba(98, 86, 121, 1) 100%);
+    /* background: linear-gradient(90deg, rgb(76, 192, 188), rgb(0, 229, 255)); */
     transition: all .7s;
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
+    color: rgba(255, 255, 255, 1);
+
 }
 
 .btn:hover {
-    background: linear-gradient(90deg, rgb(19, 170, 165), rgb(0, 191, 255));
+    background: rgb(140, 34, 140);
+    background: radial-gradient(circle, rgba(140, 34, 140, 0.7008053221288515) 0%, rgba(56, 51, 56, 0.7428221288515406) 60%, rgba(59, 22, 130, 1) 100%);
+    color: rgba(255, 255, 255, 1);
 }
 
 .textDecor {
     text-decoration: underline;
+}
+
+.heading_color {
+    color: rgba(255, 255, 255, 1);
+}
+
+.par_color {
+    /* color: rgba(171, 178, 191, 1); */
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.iTest {
+    width: 30px;
+    height: 30px;
 }
