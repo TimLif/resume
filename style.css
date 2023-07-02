@@ -1,5 +1,6 @@
 body {
-    font-family: 'Fira Code', monospace;
+    font-family: 'Rubik', sans-serif;
+    /* font-family: 'Fira Code', monospace; */
     /* font-family: 'Source Code Pro', monospace; */
     /* background: linear-gradient(135deg, rgb(12, 85, 94), rgb(97, 220, 94)); */
     /* background-color: black; */
@@ -44,7 +45,7 @@ b {
 }
 
 h2 {
-    font-size: 24px co
+    font-size: 24px;
 }
 
 .bgTest {
@@ -121,6 +122,10 @@ h2 {
 
 }
 
+/* .par_line {
+    line-height: 1.7;
+} */
+
 .iTest {
     width: 30px;
     height: 30px;
@@ -131,3 +136,19 @@ h2 {
     height: 2px;
     background-color: rgb(26, 140, 83);
 }
+
+.pic_info {
+    width: 25px;
+    height: 25px;
+}
+
+.pic_info1 {
+    width: 40px;
+    height: 40px;
+}
+
+/* .card {
+    background-color: rgba(121, 129, 154, 0.1);
+} */
+
+/* 70 10 0 */
