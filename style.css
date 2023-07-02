@@ -25,12 +25,18 @@ body {
     background: radial-gradient(circle, rgba(171, 17, 170, 0.7008053221288515) 0%, rgba(138, 21, 196, 0.7428221288515406) 60%, rgba(92, 49, 187, 1) 100%); */
     background: rgb(57, 48, 57);
     background: radial-gradient(circle, rgba(57, 48, 57, 0.7008053221288515) 0%, rgba(40, 35, 42, 0.7428221288515406) 60%, rgba(80, 69, 102, 1) 100%);
-    border-radius: 3%;
+    border-radius: 20px;
 }
 
 a {
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
+    transition: all .7s;
+}
+
+a:hover {
+    color: rgb(26, 140, 83);
+
 }
 
 b {
@@ -38,7 +44,12 @@ b {
 }
 
 h2 {
-    font-size: 24px
+    font-size: 24px co
+}
+
+.bgTest {
+    background-color: rgba(121, 129, 154, 0.1);
+    border-radius: 10px;
 }
 
 .hhLink {
@@ -75,19 +86,24 @@ h2 {
 }
 
 .btn {
-    background: rgb(102, 34, 102);
-    background: radial-gradient(circle, rgba(102, 34, 102, 0.7008053221288515) 0%, rgba(103, 40, 105, 0.7428221288515406) 60%, rgba(98, 86, 121, 1) 100%);
+    /* background: rgb(102, 34, 102);
+    background: radial-gradient(circle, rgba(102, 34, 102, 0.7008053221288515) 0%, rgba(103, 40, 105, 0.7428221288515406) 60%, rgba(98, 86, 121, 1) 100%); */
     /* background: linear-gradient(90deg, rgb(76, 192, 188), rgb(0, 229, 255)); */
-    transition: all .7s;
+
     /* border: 2px solid #000; */
     color: rgba(255, 255, 255, 1);
-
+    background: rgb(103, 87, 103);
+    /* background: linear-gradient(90deg, rgb(12, 85, 94), rgb(97, 220, 94)); */
+    transition: all 1s;
 }
 
 .btn:hover {
-    background: rgb(140, 34, 140);
-    background: radial-gradient(circle, rgba(140, 34, 140, 0.7008053221288515) 0%, rgba(56, 51, 56, 0.7428221288515406) 60%, rgba(59, 22, 130, 1) 100%);
+    /* background: rgb(140, 34, 140);
+    background: radial-gradient(circle, rgba(140, 34, 140, 0.7008053221288515) 0%, rgba(56, 51, 56, 0.7428221288515406) 60%, rgba(59, 22, 130, 1) 100%); */
     color: rgba(255, 255, 255, 1);
+    /* background: linear-gradient(90deg, rgb(76, 192, 188), rgb(106, 133, 106)); */
+    background: rgb(77, 65, 77);
+
 }
 
 .textDecor {
@@ -95,7 +111,8 @@ h2 {
 }
 
 .heading_color {
-    color: rgba(255, 255, 255, 1);
+    /* color: rgba(255, 255, 255, 1); */
+    color: rgb(26, 140, 83);
 }
 
 .par_color {
@@ -107,4 +124,10 @@ h2 {
 .iTest {
     width: 30px;
     height: 30px;
+}
+
+.bdBottom {
+    /* border: 1px solid #000; */
+    height: 2px;
+    background-color: rgb(26, 140, 83);
 }
